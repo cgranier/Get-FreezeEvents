@@ -1,6 +1,15 @@
 # Get-FreezeEvents
 
-A focused Windows forensics helper that pulls the **events most likely related to system freezes**, optionally auto-centers the search around your **last Kernel-Power 41** (unexpected shutdown), and adds quick **SMART disk health** and **GPU driver reset** summaries. It also dumps **Kernel-PnP 219** details (device/driver timeouts) and **Universal Print** noise for easier diagnosis.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PowerShell](https://img.shields.io/badge/PowerShell-5%2B-blue)](#)
+[![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-lightgrey)](#)
+[![GitHub release](https://img.shields.io/github/v/release/cgranier/Get-FreezeEvents)](https://github.com/cgranier/Get-FreezeEvents/releases)
+
+A focused Windows forensics helper that pulls the **events most likely related to system freezes**,  
+auto-centers the search around the **last Kernel-Power 41** (unexpected shutdown), and adds quick  
+**SMART disk health** and **GPU driver reset** summaries. It also dumps **Kernel-PnP 219** details  
+(device/driver timeouts) and **Universal Print** noise for easier diagnosis.
+
 
 > Tested on Windows 10/11 with PowerShell 5+ (Windows PowerShell).  
 > Run from an **elevated PowerShell** (Run as Administrator) for best results.
