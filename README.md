@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![PowerShell](https://img.shields.io/badge/PowerShell-5%2B-blue)](#)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-lightgrey)](#)
-[![GitHub release](https://img.shields.io/github/v/release/cgranier/Get-FreezeEvents)](https://github.com/cgranier/Get-FreezeEvents/releases)
+[![GitHub release](https://img.shields.io/github/v/release/cgranier/Get-FreezeEvents)](https://github.com/cgranier/Get-FreezeEvents/releases/latest)
 
 A focused Windows forensics helper that pulls the **events most likely related to system freezes**,  
 auto-centers the search around the **last Kernel-Power 41** (unexpected shutdown), and adds quick  
